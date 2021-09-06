@@ -1,0 +1,58 @@
+<html lang="en" dir="1ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link href="log.css" rel="stylesheet" type="text/css" />
+    <!-- <script src ="login2.js"> </script> -->
+  </head>
+  <div class="top">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">contact</a>
+    <a href="log in.html" class="homeBtn">Login</a>
+  </div>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form
+        name="myform"
+        onsubmit="return myFunction()"
+        action="select.html"
+        method="POST"
+      >
+        <div class="txt_field">
+          <input type="text" required id="username" value="" />
+          <span></span>
+          <label>username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required id="password" value="" />
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <!-- <input type="submit" value="login" > -->
+        <button class="bttn" onclick="myFunction()">login</button>
+        <div class="signup_link">
+          Don't Have An Account? <a href="Welcome.html">Signup</a>
+        </div>
+      </form>
+    </div>
+    <script>
+      function myFunction() {
+        if (
+          document.getElementById("username").value != "" &&
+          document.getElementById("password").value != ""
+        ) {
+          alert("login succesfully");
+          // header("Location: Welcome.html");
+          // location.href = "Welcome.html";
+          return true;
+        } else {
+          alert("login failed");
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>

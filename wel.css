@@ -1,0 +1,43 @@
+body {
+  background-image: url(pp.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.signUp {
+  margin-top: 30px;
+  margin-left: 540px;
+  text-align: center;
+}
+.bttn {
+  border: 2px solid purple;
+  padding: 10px 30px;
+  color: white;
+  font-family: "verdana", "sans-serif";
+  font-size: 28px;
+  text-decoration: none;
+  background-color: blue;
+}
+.top {
+  margin-left: 850px;
+  padding-top: 20px;
+}
+.top a {
+  margin-left: 35px;
+  font-size: 22px;
+  text-decoration: none;
+  color: purple;
+}
+.top a:hover {
+  margin-left: 35px;
+  font-size: 22px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid gold;
+}
+.homeBtn {
+  background-color: white;
+  padding: 5px 10px;
+}

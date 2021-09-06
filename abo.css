@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  margin-left: 850px;
+  padding-top: 20px;
+}
+.top a {
+  margin-left: 35px;
+  font-size: 22px;
+  text-decoration: none;
+  color: purple;
+}
+.top a:hover {
+  margin-left: 35px;
+  font-size: 22px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid gold;
+}
+
+.img-eye {
+  width: 200px;
+  height: 280px;
+  background-image: url(img-eye.jpg);
+  background-size: 100%;
+  background-color: blue;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  background: yellow;
+  height: 100vh;
+  overflow: hidden;
+}
+.about {
+  color: red;
+  font-size: 20px;
+}
+.homeBtn {
+  background-color: white;
+  padding: 5px 10px;
+}
